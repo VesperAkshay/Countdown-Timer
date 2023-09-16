@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Countdown Timer</h1>
+        <div class="countdown-container">
+            <div class="countdown" id="countdown">
+                <div class="countdown-item">
+                    <span id="days">00</span>
+                    <span>Days</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours">00</span>
+                    <span>Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes">00</span>
+                    <span>Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds">00</span>
+                    <span>Seconds</span>
+                </div>
+            </div>
+        </div>
+        <div class="input-container">
+            <label for="eventName">Event Name:</label>
+            <input type="text" id="eventName" placeholder="Enter event name" required>
+            <br>
+            <label for="eventDate">Event Date:</label>
+            <input type="date" id="eventDate" required>
+            <br>
+            <label for="eventTime">Event Time (optional):</label>
+            <input type="time" id="eventTime">
+            <br>
+            <button id="startButton">Start Countdown</button>
+        </div>
+        <div class="warning" id="warning"></div>
+    </div>
+    <audio id="eventSound" src="your-sound-file.mp3" preload="auto" loop="false"></audio>
+    <script src="js/script.js"></script>
+</body>
+</html>

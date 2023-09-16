@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #4CAF50, #2196F3);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.countdown-container {
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.countdown-item {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Rest of your styles remain the same */
+In these code updates:
+
+The body CSS styles are modified to center the Countdown Timer box both horizontally and vertically on the page. It uses display: flex and justify-content: center to achieve this.
+
+The background color for the Countdown Timer container is set to a matching color (#333) to provide a cohesive design.
+
+Feel free to adjust the colors further or make additional styling changes to achieve the desired visual appeal for your Countdown Timer website.
+
+
+
+
+
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+button {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00459e;
+}
+
+.countdown-container {
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.countdown-item {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.warning {
+    color: red;
+    margin-top: 10px;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Add more custom styles and animations as needed */
